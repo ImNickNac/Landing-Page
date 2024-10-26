@@ -11,11 +11,11 @@ a {
 
 .header {
     display: flex;
-    justify-content: space-around;
     background-color: #1F2937;
     font-size: 18px;    
     padding: 0;
     margin: 0;
+    align-items: center;
 }
 
 body {
@@ -41,4 +41,15 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 18px;
+}
+
+.right-links {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.left-links {
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 40px;
 }
