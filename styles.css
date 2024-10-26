@@ -48,6 +48,9 @@ body {
     gap: 30px;
 }
 
+ /* the following .image was created to mimic exactly what the project image is. 
+ instead of doing this, it should just be a link to an image and sized accordinly */
+
 .image {
 
     background-color: #6a7583;
