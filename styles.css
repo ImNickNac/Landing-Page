@@ -44,12 +44,15 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row-reverse;
-    height: 450px;
+    height: 460px;
     gap: 30px;
 }
 
- /* the following .image was created to mimic exactly what the project image is. 
- instead of doing this, it should just be a link to an image and sized accordinly */
+ /* the following mimics exactly what the reference project image created - if the desire
+ is to make the website exactly like the Odin Project reference image, the following .image 
+ needs to be added and the image currently in use needs to be removed. This will be the only
+ code added to mimic the odin project exactly, the rest of the document creates the website using
+ pictures as intended and not creating placeholders. 
 
 .image {
 
@@ -59,6 +62,14 @@ body {
     align-items: center;
     color: #f9f9f9;
 }
+ */
+
+ .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
 
 .image-text-head {
 
@@ -69,7 +80,7 @@ body {
     justify-content: flex-start;
 }
 
-.inside-image-second-text {
+.image-text-second-line {
     color: #e5e7eb;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -97,12 +108,44 @@ body {
     justify-content: center;
 }
 
+.box-2-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 50px;
+}
+
+.box-2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    height: 355px;
+    width: 170px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card-text {
+    color: #6a7583;
+}
+
+.box-3 {
+    background-color: #6a7583;
+}
+
+
 .footer {
     display: flex;
-    color: #e5e7eb;
+    color: #f9faf8;
     background-color: #1F2937;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
+    font-size: 12px;
+    height: 50px;
 }
 
