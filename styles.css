@@ -135,7 +135,46 @@ body {
 }
 
 .box-3 {
-    background-color: #6a7583;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quote-main {
+    display: flex;
+    justify-content: center;
+    width: 815px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-reference {
+    display: flex;
+    justify-content: end;
+    width: 815px;
+    display: flex;
+    font-size: 26px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.box-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.call-to-action-box {
+    height: 150px;
+    width: 900px;
+    background: #3882f6;
+    border-radius: 8px;
 }
 
 
