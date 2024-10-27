@@ -94,7 +94,7 @@ body {
     margin-bottom: 30px;
 }
 
-.buttons {
+.box-1-button {
     display: flex;
     margin-top: 10px;
     color: #e5e7eb;
@@ -172,11 +172,40 @@ body {
 
 .call-to-action-box {
     height: 150px;
-    width: 900px;
+    width: 1025px;
     background: #3882f6;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+
 }
 
+.action-header {
+    font-size: 22px;
+    color: #e5e7eb;
+    font-weight: 900;
+}
+
+.action-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.action-button {
+    display: flex;
+    margin-top: 10px;
+    color: #e5e7eb;
+    border-radius: 12px;
+    outline: 2px solid #e5e7eb;
+    height: 40px;
+    width: 125px;
+    font-size: 16px;
+    font-weight: 900;
+    align-items: center;
+    justify-content: center;
+}
 
 .footer {
     display: flex;
@@ -184,7 +213,7 @@ body {
     background-color: #1F2937;
     justify-content: center;
     align-items: center;
-    font-size: 12px;
-    height: 50px;
+    font-size: 18px;
+    padding: 40px;
 }
 
